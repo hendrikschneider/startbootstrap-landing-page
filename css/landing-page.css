@@ -23,13 +23,14 @@ h6 {
 header.masthead {
   position: relative;
   background-color: black;
-  background: url("../img/bg-masthead.png") no-repeat center center;
+  background: url("../img/On_hero_3_mobil.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  height: 60vh;
 }
 
 header.masthead .overlay {
@@ -48,6 +49,7 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
+    background: url("../img/bg-masthead.png") no-repeat center center;
     padding-top: 12rem;
     padding-bottom: 12rem;
     height: 850px;
@@ -123,7 +125,7 @@ header.masthead h1 {
 
 @media only screen and (max-width: 992px) {
   .call-to-action-button {
-    top: 7.5em;
+    top: 10.5em;
     position: relative !important;
   }
 }

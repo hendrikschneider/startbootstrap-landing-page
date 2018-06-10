@@ -1,11 +1,13 @@
 header.masthead {
   position: relative;
   background-color: black;
-  background: url('../img/bg-masthead.png') no-repeat center center;
+  background: url('../img/On_hero_3_mobil.png') no-repeat center center;
   @include background-cover;
 
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  height: 60vh;
+
   .overlay {
     position: absolute;
     /*background-color: $gray-900;*/
@@ -19,6 +21,8 @@ header.masthead {
     font-size: 2rem;
   }
   @media (min-width: 768px) {
+    background: url('../img/bg-masthead.png') no-repeat center center;
+
     padding-top: 12rem;
     padding-bottom: 12rem;
     h1 {
