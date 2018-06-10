@@ -1,5 +1,6 @@
 body {
   @include body-font;
+  padding-top: 0px;
 }
 
 h1,
@@ -10,4 +11,11 @@ h5,
 h6 {
   @include body-font;
   font-weight: 700;
+}
+
+.on_navbar {
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+  background-color: transparent !important;
 }
