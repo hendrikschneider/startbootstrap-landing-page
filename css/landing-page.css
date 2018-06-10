@@ -57,6 +57,16 @@ header.masthead h1 {
   }
 }
 
+@media (max-width: 768px) {
+  .header_mobile {
+    display: none;
+  }
+  .header_desktop {
+    display: block;
+    text-align: justify;
+  }
+}
+
 .showcase .showcase-text {
   padding: 3rem;
 }
@@ -108,7 +118,7 @@ header.masthead h1 {
 }
 
 @media only screen and (max-width: 992px) {
-  .call-to-action {
+  .call-to-action-button {
     top: 7.5em;
     position: relative !important;
   }

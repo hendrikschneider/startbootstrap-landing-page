@@ -27,3 +27,14 @@ header.masthead {
     height: 850px;
   }
 }
+
+@media (max-width: 768px) {
+  .header_mobile {
+    display:none;
+  }
+
+  .header_desktop {
+    display:block;
+    text-align: justify;
+  }
+}
