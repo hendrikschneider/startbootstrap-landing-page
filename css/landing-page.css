@@ -57,6 +57,10 @@ header.masthead h1 {
   }
 }
 
+.header_desktop {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .header_mobile {
     display: none;
