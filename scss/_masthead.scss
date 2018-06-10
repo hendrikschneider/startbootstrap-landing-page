@@ -24,10 +24,9 @@ header.masthead {
   h1 {
     font-size: 2rem;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 900px) {
     background: url('../img/on_hero_3_desktop_2_logo_hoch-compressor.png') no-repeat;
     @include background-cover;
-
 
     h1 {
       font-size: 3rem;
