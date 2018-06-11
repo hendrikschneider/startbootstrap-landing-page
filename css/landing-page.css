@@ -146,6 +146,8 @@ header.masthead h1 {
 
 .call-to-action-button {
   border-radius: 5em;
+  background-color: #2E3192;
+  border-color: #2E3192;
 }
 
 @media only screen and (max-width: 992px) {
